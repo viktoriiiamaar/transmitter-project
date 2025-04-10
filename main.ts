@@ -4,7 +4,7 @@ input.onButtonPressed(Button.A, function on_button_pressed_a() {
     let path = [1, 2, 3, 1, 2, 3, 1]
     for (let i = 0; i < path.length; i++) {
         radio.sendValue("step", path[i])
-        basic.pause(200)
+        basic.pause(2000)
     }
 })
 radio.setGroup(1)
