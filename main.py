@@ -1,5 +1,5 @@
 def on_button_pressed_a():
-    path = [0, 1, 2, 3, 4, 5]
+    path = [1, 2, 3, 1, 2, 3, 1]
     for i in range(len(path)):
         radio.send_value("step", path[i])
         basic.pause(200)  # Small delay to ensure transmission
